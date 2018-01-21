@@ -10,21 +10,22 @@
 
 	<properties>
 		<javaee.version>8.0</javaee.version>
-		<spring.version>4.3.6.RELEASE</spring.version>
+		<spring.version>4.0.6.RELEASE</spring.version>
 	</properties>
 
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
+		<!-- https://mvnrepository.com/artifact/javax/javaee-web-api -->
 		<dependency>
 			<groupId>javax</groupId>
-			<artifactId>javaee-api</artifactId>
-			<version>${javaee.version}</version>
+			<artifactId>javaee-web-api</artifactId>
+			<version>8.0</version>
 			<scope>provided</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>${spring.version}</version>
+			<version>5.0.2.RELEASE</version>
 		</dependency>
 
 		<dependency>

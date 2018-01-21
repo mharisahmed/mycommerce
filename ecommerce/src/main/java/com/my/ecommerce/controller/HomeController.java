@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HomeController {
 	
-	@RequestMapping("/test")
+	@RequestMapping("/home")
 	public ModelAndView Index(){
 		ModelAndView mv=new ModelAndView("page");
 		mv.addObject("message","welcome to the party!!!!");
